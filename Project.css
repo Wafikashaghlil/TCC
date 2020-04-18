@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,Tahoma;
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style: none;
+
+}
+.main {
+    background-color:#333;
+    color:#DDD;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color:#DDD;
+}
+nav ul {
+    padding: 20px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li:after{
+    content: " | ";
+}
+nav ul li:last-child:after {
+    content: "";
+}
+main{
+    background-color: #EEE;
+    padding:20px;
+
+}
+
+main p{
+    text-align: center;
+
+}
+main p span{
+    font-weight: bold;
+    color:#666;
+
+}
+main mark{
+    background-color: red;
+    color: #fff;
+    font-size: 30px;
+}
+
+.part td a{
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    text-align: center; 
+    padding: 20px;
+    margin: 20px;
+
+}
+#user{
+    display: inline inline-block;
+    text-align: center;
+    font-size: 90px;
+}
+#sign{
+    display: inline inline-block;
+    text-align: center;
+}.content a i {
+    color: black;
+}
+aside{ 
+    margin: auto;
+    width:30%;
+    text-align: center;
+}
+aside section{
+    background-color: #EEE;
+    margin: 10px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    margin-bottom: 20px;
+}
+aside section h3{
+    background-color: #D1D1D1;
+    padding: 10px;
+}
+aside section ul{
+    margin-top: 10px;
+}
+aside section ul li{
+    line-height: 2;
+}
+aside section div{
+    margin-top: 10px;
+}
+.back{
+    text-align: center;
+    color: violet;
+    font-style: italic;
+    font-size: larger;
+}
+.info{
+    text-align: center;
+    font-style: italic;
+    margin: 60px 60px auto;
+    padding: 20px auto;
+    border: dashed;
+    border-color: slateblue;
+    line-height: 60px;
+    font-size: larger;
+    font-weight: bolder;
+    border-width: thick;
+
+}
+footer{ 
+    background-color: #333;
+    color:#DDD;
+    text-align: center;
+    padding:10px;
+}
